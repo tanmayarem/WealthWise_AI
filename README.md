@@ -1,10 +1,10 @@
 # WealthWise AI: Agentic Q&A System for Financial Advisory
 
-## 🎯 Project Vision
+##  Project Vision
 
 Building a conversational AI prototype that combines Retrieval-Augmented Generation (RAG) with agentic workflow design for finance domain Q&A.
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Query → Research Agent → Vector DB → Finance Analyst → Response
@@ -13,7 +13,7 @@ User Query → Research Agent → Vector DB → Finance Analyst → Response
            Source Selection  Retrieval     with Context
 ```
 
-## 🧠 Dual-Agent Design
+##  Dual-Agent Design
 
 ### 1. Research Agent
 - Analyzes user queries to identify key financial concepts
@@ -33,7 +33,7 @@ User Query → Research Agent → Vector DB → Finance Analyst → Response
 - **Orchestration:** LangChain (optional)
 - **UI:** Streamlit
 
-## 📁 Planned Structure
+##  Planned Structure
 
 ```
 wealthwise-ai/
@@ -52,28 +52,28 @@ wealthwise-ai/
 └── .env
 ```
 
-## 💡 Key Features
+##  Key Features
 
 - **Agentic Decision Chain:** System decides which data sources to query based on user questions
 - **Prompt Engineering:** Role-based instruction, output format control, context window management
 - **Lightweight RAG:** Efficient retrieval from document corpus
 - **Multi-Agent Foundation:** Laying groundwork for enterprise finance orchestration
 
-## 🎯 Sample Use Cases
+##  Sample Use Cases
 
 - "What's the P/E ratio of Apple?"
 - "How has inflation affected tech stocks?"
 - "Compare revenue growth of Microsoft vs Google"
 - "What are the risks in the current market?"
 
-## 📝 Prompt Engineering Approach
+##  Prompt Engineering Approach
 
 - Role-based system prompts with clear responsibilities
 - Few-shot examples for consistent output formatting
 - Structured response templates with financial disclaimers
 - Temperature control for response consistency
 
-## 🚀 Next Steps
+##  Next Steps
 
 1. Implement prompt templates with few-shot examples
 2. Set up ChromaDB vector store with sample financial documents
@@ -86,4 +86,3 @@ wealthwise-ai/
 ---
 
 *Work in Progress - Building step by step*
-```
