@@ -20,3 +20,4 @@ class ResearchAgent:
             return json.loads(response.choices[0].message.content)
         except json.JSONDecodeError:
             return {"key_concepts": [], "sources_to_query": [], "search_query": user_query}
+
